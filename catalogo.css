@@ -1,0 +1,128 @@
+body {
+  display: inline-block;
+}
+
+.contenedor {
+    display: inline-block;
+    height: 316px;
+    width: 216px;
+    margin: 10px;
+    -webkit-perspective: 700;
+    -moz-perspective: 700;
+    perspective: 700;
+}
+
+.carta {
+    box-shadow: 0px 0px 5px black;
+    height: 300px;
+    width: 216px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+
+.carta .atras .header{
+	padding: 14px 5px;
+	text-align: center;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.carta .atras ul {
+	padding: 0;
+	margin: 0;
+}
+
+.carta .atras ul li {
+	cursor: pointer;
+	font-size: 12px;
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+}
+
+.carta:hover {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.carta .atras ul li:hover{
+	background-color: #2AC92D;
+	color: white;
+}
+
+.lado {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frente {
+    background: crimson;
+}
+
+.atras {
+    background: #f0f0f0;
+    font-family: Helvetica, Verdana, Arial;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.avengers{
+    background: url(avengers.jpg);
+	color: white;
+}
+
+.bi {
+    background: url(batmanbegins.jpg);
+	color: white;
+}
+
+.btdk {
+    background: url(batmandarkknight.jpg);
+	color: white;
+}
+
+.cv {
+	background: url(Capitan%20Am%C3%A9rica%20-%20Guerra%20Civil.jpg);
+	color: white;
+}
+
+.exorcist {
+	background: url(the-exorcist.jpg);
+	color: white;
+}
+
+.gwtw {
+	background: url(gonewiththewind.jpg);
+	color: white;
+}
+
+.kb {
+	background: url(killbill1.jpg);
+	color: white;
+}
+
+.loa {
+	background: url(lawrenceofarabia.jpg);
+	color: white;
+}
+
+.matrix {
+    background: url(the-matrix.jpg);
+	color: white;
+}
+
+.seven {
+	background: url(SEVEN.jpg);
+	color: white;
+}
